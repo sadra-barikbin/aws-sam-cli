@@ -45,7 +45,7 @@ DESCRIPTION = """
   It will read the CodeUri property of AWS::Serverless::Function resource to find the path in the file system 
   containing the Lambda Function code. This could be the project's root directory for interpreted
   languages like Node & Python, or a build directory that stores your compiled artifacts or a JAR file. If one uses
-  a interpreted language, local changes will be available immediately in Docker container on every invoke. For more
+  an interpreted language, local changes will be available immediately in Docker container on every invoke. For more
   compiled languages or projects requiring complex packing support, it is recommended to run custom building solution
   and point AWS SAM CLI to the directory or file containing build artifacts.
 
